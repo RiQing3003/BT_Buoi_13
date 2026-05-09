@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập JS buổi 13</title>
+</head>
+
+<body>
+    <!-- Bài 1: Quản lý tuyển sinh -->
+    <h1>Quản lý tuyển sinh</h1>
+
+    <input type="number" id="diemChuan" placeholder="Điểm chuẩn">
+    <br><br>
+
+    <input type="number" id="mon1" placeholder="Điểm môn 1">
+    <br><br>
+
+    <input type="number" id="mon2" placeholder="Điểm môn 2">
+    <br><br>
+
+    <input type="number" id="mon3" placeholder="Điểm môn 3">
+    <br><br>
+
+    <label>Khu vực:</label>
+    <select id="khuVuc">
+        <option value="X">Không ưu tiên</option>
+        <option value="A">Khu vực A</option>
+        <option value="B">Khu vực B</option>
+        <option value="C">Khu vực C</option>
+    </select>
+
+    <br><br>
+
+    <label>Đối tượng:</label>
+    <select id="doiTuong">
+        <option value="0">Không ưu tiên</option>
+        <option value="1">Đối tượng 1</option>
+        <option value="2">Đối tượng 2</option>
+        <option value="3">Đối tượng 3</option>
+    </select>
+
+    <br><br>
+
+    <button id="btnTinh_1">Tính kết quả</button>
+
+    <h3 id="ketQua_1"></h3>
+
+    <hr>
+    <!-- Bài 2: Tính tiền điện -->
+    <h1>Tính tiền điện</h1>
+
+    <input type="text" id="hoTen_2" placeholder="Nhập họ tên">
+
+    <br><br>
+
+    <input type="number" id="soKW" placeholder="Nhập số điện tiêu thụ">
+
+    <br><br>
+
+    <button id="btnTinh_2">Tính tiền điện</button>
+
+    <h3 id="ketQua_2"></h3>
+
+    <hr>
+
+    <!-- Bài 3: Tính thuế thu nhập cá nhân -->
+
+    <h2>Tính thuế thu nhập cá nhân</h2>
+
+    <input type="text" id="hoTen_3" placeholder="Nhập họ tên">
+
+    <br><br>
+
+    <input type="number" id="tongThuNhap" placeholder="Nhập tổng thu nhập năm">
+
+    <br><br>
+
+    <input type="number" id="nguoiPhuThuoc" placeholder="Nhập số người phụ thuộc">
+
+    <br><br>
+
+    <button id="btnTinh_3">Tính thuế</button>
+
+    <h3 id="ketQua_3"></h3>
+
+    <hr>
+
+    <!-- Bài 4: Tính tiền cáp -->
+
+    <h2>Tính tiền cáp</h2>
+
+    <input type="text" id="maKhachHang" placeholder="Nhập mã khách hàng">
+
+    <br><br>
+
+    <select id="loaiKhachHang">
+        <option value="nhaDan">Nhà dân</option>
+        <option value="doanhNghiep">Doanh nghiệp</option>
+    </select>
+
+    <br><br>
+
+    <div id="boxSoKetNoi">
+        <label>Số kết nối:</label>
+        <input type="number" id="soKetNoi" placeholder="Nhập số kết nối">
+    </div>
+
+    <br>
+
+    <input type="number" id="soKenh" placeholder="Nhập số kênh cao cấp">
+
+    <br><br>
+
+    <button id="btnTinh_4">Tính tiền cáp</button>
+
+    <h3 id="ketQua_4"></h3>
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
